@@ -1,23 +1,35 @@
 import React, { Component } from "react";
-//import API from "../utils/API";
-//import Card from "../components/Card";
+import Header from "../components/Header";
 import Project from "../components/Project";
+import Container from "../components/Container"
 
 class Portfolio extends Component {
-  state = {
-    image: "",
-    title: "",
-  };
+  state = {};
 
   render() {
     return (
       <div>
-        <h1 className="text-center">Portfolio</h1>
-        
-        <Project image={this.state.image} title={this.state.title}>
+        <Header
+          title={"Projects"}
+          image={
+            "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-512.png"
+          }
+        >
+          Check out my porfolio.
+        </Header>
+
+        <Container>
+
+        </Container>
+
+        <Project
+          title={"Kitten Projects"}
+          image={
+            "https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg"
+          }
+        >
           This is my first project
         </Project>
-        <h1 className="text-center">Made friends with many pups so far!</h1>
       </div>
     );
   }

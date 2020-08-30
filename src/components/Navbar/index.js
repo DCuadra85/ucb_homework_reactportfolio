@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        <img href="../../assets/images/square.jpg" alt="Tanya Poovaiah"/>
+        <img src="https://tanyapoovaiah.files.wordpress.com/2013/10/copy-tanyapoovaiah.jpg?w=600" className="navName"alt="Tanya Poovaiah"/>
       </Link>
       <div>
         <ul className="navbar-nav">
