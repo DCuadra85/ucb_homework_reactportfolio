@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Space Dash",
+      "image": "https://tpoovaiah.github.io/ucb_homework_portfoliopage/assets/images/SpaceDashboard.png",
+      "description": "Compare the weather on Earth and Mars",
+      "link": "https://tpoovaiah.github.io/ucb_project01/"
+    },
+    {
+      "id": 2,
+      "title": "Smasual",
+      "image": "https://tpoovaiah.github.io/ucb_homework_portfoliopage/assets/images/smasual.jpg",
+      "description": "A casual dating app with login",
+      "link": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "title": "Eat-Da-Burger",
+      "image": "https://i.pinimg.com/originals/7f/10/41/7f104172b52b3978d25f30551030185a.jpg",
+      "description": "Eat a lot of tasty burgers",
+      "link": "https://ucb-eat-da-burger-tpoovaiah.herokuapp.com/"
+    }
+  ]
+  

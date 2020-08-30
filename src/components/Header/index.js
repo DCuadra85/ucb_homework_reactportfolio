@@ -3,7 +3,7 @@ import "./style.css";
 
 function Header(props) {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="header">
       <div className="container">
         <img src={props.image} className="icon" alt="imageLoading"/>
         <h1 className="display-4">{props.title}</h1>

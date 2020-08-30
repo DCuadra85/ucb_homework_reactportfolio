@@ -1,15 +1,18 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import "./style.css";
 
 function Project(props) {
   return (
-    <div className="card">
-      <img src={props.image} class="card-img-top" alt={props.title} />
-      <div className="card-body">
-        <h5 className="card-title">{props.title}</h5>
-        <p className="card-text">{props.children}</p>
-      </div>
+    <div className="project-card">
+      <a href={props.link}>
+        <div className="card">
+          <img src={props.image} style={{width:"198px", height:"200px"}}className="card-img-top proj-icons" alt={props.title} target="_blank" />
+          <div className="card-body">
+            <h5 className="card-title">{props.title}</h5>
+            <p className="card-text">{props.description}</p>
+          </div>
+        </div>
+      </a>
     </div>
   );
 }

@@ -2,9 +2,13 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import Project from "../components/Project";
 import Container from "../components/Container"
+import projects from "../projects.json"
+
 
 class Portfolio extends Component {
-  state = {};
+  state = {
+    projects
+  };
 
   render() {
     return (
@@ -19,17 +23,17 @@ class Portfolio extends Component {
         </Header>
 
         <Container>
-
+        {this.state.projects.map(project => (
+          <Project
+            id={project.id}
+            key={project.id}
+            title={project.title}
+            image={project.image}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
         </Container>
-
-        <Project
-          title={"Kitten Projects"}
-          image={
-            "https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg"
-          }
-        >
-          This is my first project
-        </Project>
       </div>
     );
   }

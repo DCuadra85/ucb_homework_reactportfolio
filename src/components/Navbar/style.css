@@ -1,3 +1,11 @@
 .navName {
   height: 40px;
 }
+
+.navbar {
+  background-color: white;
+}
+
+.nav-link {
+  color: rgb(92, 92, 92);
+}

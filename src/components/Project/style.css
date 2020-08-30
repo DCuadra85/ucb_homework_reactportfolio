@@ -1,4 +1,11 @@
-.card{
-    width: 250px;
+.project-card{
+    width: 200px;
+    height: 250px;
     margin: 20px;
+    display: inline-block;
+}
+
+.card-body {
+    background-color:rgb(89, 141, 194);
+    color: whitesmoke;
 }

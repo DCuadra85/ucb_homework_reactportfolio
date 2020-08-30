@@ -42,19 +42,6 @@ function About() {
         games.
         <br />
         <br />
-        Find Tanya on{" "}
-        <a
-          href="https://www.linkedin.com/in/tanya-poovaiah-53087266/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>{" "}
-        and{" "}
-        <a href="https://github.com/tpoovaiah" target="_blank">
-          GitHub
-        </a>
-        !
-        <br />
         You can download Tanya's resume here:{" "}
         <a
           href="assets/images/resume2019.pdf"
